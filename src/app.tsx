@@ -1,12 +1,11 @@
 import React from 'react'
 import "./css/app.scss";
+import AppHeader from './components/header';
 
 const App = () => {
     return(
         <div>
-            <div className="app--header">
-                Logo
-            </div>
+            <AppHeader />
             <h1>In progress</h1>
         </div>
     )

@@ -3,3 +3,8 @@
 body {
     background: #ccc;
 }
+
+.app--header {
+    display: flex;
+    justify-content: space-between;
+}
