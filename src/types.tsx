@@ -8,3 +8,8 @@ export type defaultAction = {
     type: string,
     payload: any
 }
+
+export interface warningEntry {
+    heading: string,
+    text: string
+}
